@@ -1,0 +1,21 @@
+[user]
+    name = Łukasz Lalik
+    email = lukasz.lalik@gmail.com
+[push]
+    default = current
+[credential]
+    helper = osxkeychain
+[core]
+    excludesfile = ~/.gitignore_global
+[alias]
+    co = checkout
+    c = commit
+    ca = commit --amend
+    s = status
+    a = add
+    d = diff
+    dc = diff --cached
+    p = push
+    pr = pull --rebase
+    b = branch
+    lol = log --graph --decorate --oneline --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
