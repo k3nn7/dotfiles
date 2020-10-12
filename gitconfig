@@ -1,7 +1,7 @@
 [user]
     name = Łukasz Lalik
-    email = lukasz.lalik@gmail.com
-	  signingkey = 83D10B62D857B0B8
+    email = lukasz.lalik@brainly.com
+    signingkey = 83D10B62D857B0B8
 [push]
     default = current
 [credential]
