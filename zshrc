@@ -1,4 +1,4 @@
-export ZSH=$HOME/Projects/dotfiles/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 export EDITOR="vim"
 export GOPATH=~/Go
 export PATH=/usr/local/bin:$PATH:$GOPATH/bin
@@ -13,3 +13,5 @@ ZSH_THEME="ys"
 source $ZSH/oh-my-zsh.sh
 
 alias g=git
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

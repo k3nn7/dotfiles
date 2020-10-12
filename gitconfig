@@ -1,6 +1,7 @@
 [user]
     name = Łukasz Lalik
     email = lukasz.lalik@gmail.com
+	  signingkey = 83D10B62D857B0B8
 [push]
     default = current
 [credential]
@@ -19,3 +20,8 @@
     pr = pull --rebase
     b = branch
     lol = log --graph --decorate --oneline --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+
+[pager]
+    branch = false
+[commit]
+    gpgsign = true
